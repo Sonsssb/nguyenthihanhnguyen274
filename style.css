@@ -1,0 +1,173 @@
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    /* Reset CSS */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    #main {}
+    
+    .clear {
+        clear: both;
+    }
+    
+    .text-center {
+        text-align: center !important;
+    }
+    
+    .text-decoration {
+        text-decoration: none ! important;
+    }
+    
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background-color:  #0099ff;
+        z-index: 1;
+        /* overflow: hidden; */
+       }
+    
+    #header {
+        line-height: 60px;
+       }
+    
+    #nav > li a {
+        display: inline-block;
+    }
+    
+    #nav li a {
+        text-decoration: none;
+        color: #000;
+        padding: 0 25px;
+        margin-left: 20px;
+    }
+    
+    #content {
+        margin-top: 90px;
+    }
+    
+    #content .avatar img {
+        height:300px;
+        width:300px;
+        border-radius:50% ;
+        padding:20px;
+        margin-left: 60px;
+    }
+    
+    #content .name {
+        margin-bottom:20px;
+    }
+    
+    #header .mobile-menu-btn {
+        float:right;
+        padding: 0 24px;
+    
+    }
+    
+    #header .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+    
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    
+    #header .menu-icon {
+        color: #000;
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
+    #gioithieu{
+        height:400px;
+        background-color: #ccc;
+    }
+    
+    #gioithieu .text-gt {
+        padding-top: 40px;
+        font-size: 24px;
+    }
+    
+    #gioithieu .text-cute {
+        padding: 20px 0;
+        font-size: 10px;
+        font-style: italic;
+        opacity: 0.6;
+    }
+    
+    #gioithieu .text-cmt {
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #content .icon {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #content .icon a {
+        padding: 0 5px;
+    }
+    
+    #content .icon .icon-facebook {
+        color: #0066ff;
+    }
+    
+    #content .icon .icon-email  {
+        color: #ff0000;
+    }
+    
+    #content .icon .icon-love {
+        color: #ff0066;
+    }
+    
+    #content .icon .icon-youtube {
+        color: #000;
+    }
+    
+    #content .icon .icon-twitter {
+        color: #66a3ff;
+    }
+    
+    #sothich {
+        height:500px;
+        background-color: rgba(0,0,0,0.1);
+    }
+    
+    #sothich .st-h2 {
+        font-size: 24px;
+        padding: 20px 30px 20px;
+    }
+    
+    #sothich .st {
+        margin-left: 100px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
